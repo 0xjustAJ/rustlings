@@ -2,14 +2,21 @@
 //
 // Execute `rustlings hint if1` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 pub fn bigger(a: i32, b: i32) -> i32 {
     // Complete this function to return the bigger number!
     // Do not use:
     // - another function call
     // - additional variables
-}
+    if a < b {
+        b
+    }else{
+        a
+    }
+    // the solution is to write a control flow statement that is if a is less that be, return b (greater). else, return a (lesser)
+    }
+
+
 
 // Don't mind this for now :)
 #[cfg(test)]

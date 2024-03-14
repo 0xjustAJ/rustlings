@@ -3,9 +3,8 @@
 // Execute `rustlings hint variables6` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
-
-const NUMBER = 3;
+const NUMBER: i32 = 3;
 fn main() {
     println!("Number {}", NUMBER);
+    // Answer: we are to add the type to the CONST keyword.in this case, we have the type is of i32.
 }

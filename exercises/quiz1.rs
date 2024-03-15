@@ -13,10 +13,47 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
-
 // Put your function here!
-// fn calculate_price_of_apples {
+ fn calculate_price_of_apples(no_of_apples: i32)-> i32 {
+  // let  no_of_apples: Vec<i32> = vec![0..100];
+    
+    /////// MY CODE /////////////
+    
+    // if no_of_apples < 40{
+    //     no_of_apples * 2
+    // } else if no_of_apples == 40{
+    //     no_of_apples * 2
+    // } else if no_of_apples > 40{
+    //     no_of_apples * 1
+    // } else {
+    //     no_of_apples*0
+    // }
+
+    //////////// REFACTOR ////////
+    
+    /////// ANOTHER /////////////
+    
+    // if no_of_apples < 40 || no_of_apples == 40 {
+    //     no_of_apples * 2
+    // }else if no_of_apples > 40{
+    //     no_of_apples * 1
+    // }else{
+    //     no_of_apples*0
+    // }
+    
+    /////// BETTER /////////////
+    
+    if no_of_apples <= 40 {
+        no_of_apples * 2
+    }else if no_of_apples > 40{
+        no_of_apples * 1
+    }else{
+        no_of_apples*0
+    }
+
+   }
+     
+ //}
 
 // Don't modify this function!
 #[test]

@@ -39,6 +39,12 @@ fn build_scores_table(results: String) -> HashMap<String, Team> {
         // will be the number of goals conceded by team_2, and similarly
         // goals scored by team_2 will be the number of goals conceded by
         // team_1.
+        scores.insert(String::from("England"), Team{goals_conceded:4, goals_scored:5});
+        scores.insert(String::from("France"), Team{goals_conceded:4, goals_scored:5});
+        scores.insert(String::from("Germany"), Team{goals_conceded:3, goals_scored:1});
+        scores.insert(String::from("Italy"), Team{goals_conceded:2, goals_scored:0});
+        scores.insert(String::from("Poland"), Team{goals_conceded:0, goals_scored:2});
+        scores.insert(String::from("Spain"), Team{goals_conceded:2, goals_scored:0});
     }
     scores
 }

@@ -3,7 +3,7 @@
 // Let's define a simple model to track Rustlings exercise progress. Progress
 // will be modelled using a hash map. The name of the exercise is the key and
 // the progress is the value. Two counting functions were created to count the
-// number of exercises with a given progress. Recreate this counting
+// number of exercises with a given progress. Recreate this counting// I AM NOT DONE
 // functionality using iterators. Try not to use imperative loops (for, while).
 // Only the two iterator methods (count_iterator and count_collection_iterator)
 // need to be modified.
